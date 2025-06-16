@@ -8,6 +8,62 @@
     </head>
     <body>
         <h1>Defusal Solver</h1>
+        <p>A little website you can use for <a href="https://www.roblox.com/games/3577061261/Defusal#!/about" target="_blank" >Defusal</a> the game.</p>
+        <br>
+        <hr>
         <h2>Instructions</h2>
+        <p>The Website is in the order of the manual, you can jump to sections of the page using the chapter selection below</p>
+        <p>Click on the chapter name to jump to that section</p>
+        <ul>
+            <li><a href="#Wires">Wires</a></li>
+            <li><a href="#Button">Button</a></li>
+            <li><a href="#Hexadecimal">Hexadecimal</a></li>
+            <li><a href="#Keypads">Keypads</a></li>
+            <li><a href="#Binary">Binary</a></li>
+            <li><a href="#Mathematics">Mathematics</a></li>
+            <li><a href="#Color Code">Color Code</a></li>
+            <li><a href="#Multi Buttons">Multi Buttons</a></li>
+            <li><a href="#Timing">Timing</a></li>
+            <li><a href="#Echo">Echo</a></li>
+            <li><a href="#Counting">Counting</a></li>
+            <li><a href="#Tiles">Tiles</a></li>
+            <li><a href="#Morse Code">Morse Code</a></li>
+            <li><a href="#Interview">Interview</a></li>
+        <section id="Wires">
+            <h2>Wires</h2>
+            <form action="wires.html" method="POST">
+            <label for="num-wires">how many wires?</label>
+            <input type="number" id="num-wires" name="num-wires" placeholder="3-5 wires" min="3" max="5"> 
+            <br>
+            <label for="col-wires">What Colors are there?</label>
+            <input type="checkbox" id="col-wires" name="col-wires" value="red">Red
+            <input type="checkbox" id="col-wires" name="col-wires" value="blue">Blue
+            <input type="checkbox" id="col-wires" name="col-wires" value="white">White
+            <input type="checkbox" id="col-wires" name="col-wires" value="green">Green
+            <input type="checkbox" id="col-wires" name="col-wires" value="yellow">Yellow
+        </section>
+
+        <section id="Button">
+            <h2>Button</h2>
+            <form action="button.html" method="POST">
+            <label for="button-color">What color is the button?</label>
+            <input type="checkbox" id="button-color" name="button-color" value="red">Red
+            <input type="checkbox" id="button-color" name="button-color" value="blue">Blue
+            <input type="checkbox" id="button-color" name="button-color" value="white">White
+            <input type="checkbox" id="button-color" name="button-color" value="green">Grey
+            <br>
+            <label for="button-text">What does the button say?</label>
+            <input type="checkbox" id="button-text" name="button-text" value="detonate">Detonate
+            <input type="checkbox" id="button-text" name="button-text" value="abort">Abort
+            </form>
+        </section>
+        <section id="Hexadecimal">
+            <h2>Hexadecimal</h2>
+            <form action="hexadecimal.html" method="POST">
+            <label for="hex-number">What is the number?</label>
+            <input type="text" id="hex-number" name="hex-number" placeholder="0-9, A-F separated by spaces">
+            </form>
+        </section>
+       
     </body>
 </html>
